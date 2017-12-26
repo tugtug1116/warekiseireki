@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="home.css" type="text/css"  media="screen,print" id="changestyle">
+<script src="result_index2.js"></script>
+<title></title>
+</head>
+<body onload="getSec();etocheck();changeIMG();csschange()">
+<!-- <h1><p>履歴書かきかき君</p></h1> -->
+<h2><center>    <div style="background: #FFFFFF; border-radius: 20px; width:300px; border: 3px solid #CBC6C6; height:100％; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;">
+<p id="kon">
+  <font size="5" color="#585858">今日は...</font><br>
+  <font size="3" color="#585858">平成</font><font size="5" color="#FFA91D" id="nowWareki">20</font><font size="3" color="#585858">年</font>&emsp;
+<font size="3" color="#585858">(西暦</font><font color="#FFA91D" size="5" id="nowDate" ><b>2000</b></font><font size="3" color="#585858">年)</font>
+<br><font size="5" color="#FFA91D" id="nowMon" >08</font><font size="3" color="#585858">月</font>
+&emsp;<font size="5" color="#FFA91D" id="nowDay" >2</font><font size="3" color="#585858">日</font>
+&emsp;<font size="5" color="#FFA91D" id="nowYoubi">花</font><font size="3" color="#585858">曜日</font>
+</p>
+<div style="position: relative;">
+<img id="gazo" src="color.png" width="270" border="0" alt="" >
+<div style="position:absolute; top:40px; right:10px; width: 430px;">
+<font size="3" color="#585858">あなたは</font></div>
+<div style="position:absolute; top:70px; width: 270px;">
+ <select name="学校選択" id="univer">
+    
+    <option>大学生（４年制）</option>
+    <option>大学生（６年制）</option>
+    <option>専門（２年制）</option>   
+  </select><br></div>
+
+  <div style="position:absolute; top:100px; width: 270px;right:50px;">
+  <font size="2" face="VL Gothic">浪人 </font>
+  <select name="浪人選択" id="ronin">
+
+    <option>なし</option>
+    <option>１年</option>
+    <option>２年</option>
+    <option>３年</option>
+    <option>４年</option>
+    <option>５年</option>
+    <option>６年</option>
+    <option>７年</option>
+    <option>８年</option>
+    <option>９年</option>   
+  </select>
+   <font size="2" face="VL Gothic">留年 </font>
+  <select name="留年選択" id="ryunen">
+
+    <option>なし</option>
+    <option>１年</option>
+    <option>２年</option>
+    <option>３年</option>
+    <option>４年</option>
+    <option>５年</option>
+    <option>６年</option>
+    <option>７年</option>
+    <option>８年</option>
+    <option>９年</option>   
+  </select><br>
+
+
+
+
+</div>
+
+<div style="position:absolute; top:145px;left: 15px; width: 270px;">
+<font size="3" color="#585858">です。</font>
+</div></div>
+</center></div></h2>
+<center>
+<div style="background: #FFFFFF; border-radius: 20px; width:300px; border: 3px solid #CBC6C6; height:100％; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;">
+<input type="date" id="naruse" style="WIDTH:210px; HEIGHT:40px; font-size:20px; text-align:center;" /><br>
+<font><a class="square_btn" onclick="redirect1();save()">GO!</a>
+</font><br><br>
+<a class="square_btn" id="savedate" onclick="impossible();"><font face="VL Gothic">未登録</a></font><br>
+<a class="square_btn" id="savedate2" onclick="impossible();"><font face="VL Gothic">未登録</a></font><br>
+<a class="square_btn" id="savedate3" onclick="impossible();"><font face="VL Gothic">未登録</a></font><br>
+<a class="square_btn" id="savedate4" onclick="impossible();"><font face="VL Gothic">未登録</a></font><br>
+<a class="square_btn" id="savedate5" onclick="impossible();"><font face="VL Gothic">未登録</a></font><br>
+<select id="sentaku" name="留年選択" style="WIDTH:210px; HEIGHT:40px; font-size:20px; text-align:center;">
+
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>全て</option>
+</select><br>
+
+<a class="square_btn" id="delete" onclick="localdelete();"><font face="VL Gothic">消去</a></font><br>
+</div>
+<div class="heart">♥♡</div>
+<div class="sakura">✿</div>
+<div class="hoshi">★</div>
+<div class="juujika">†</div>
+<div class="snow">●*</div>
+</body>
+

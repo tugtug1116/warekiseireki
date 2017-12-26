@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="home.css" type="text/css">
+<script src="result_index2.js"></script>
+<title></title>
+</head>
+<body onload="oldcheck();yearcheck();etocheck();getsec()" id="body">
+<!-- <h1><p>履歴書かきかき君</p></h1> -->
+<br>
+<center>    <div style="background: #FFFFFF; border-radius: 20px; width:300px; border: 3px solid #CBC6C6; height:100％; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;">
+<font size="5"  color="#585858"><b>今日は…</b></font><br>
+  <font size="3" color="#585858">平成</font><font size="5" color="#FFA91D" id="nowWareki"><b>20</b></font><font size="3" color="#585858">年</font>
+<font size="3" color="#585858">(西暦</font><font color="#FFA91D" size="5" id="nowDate" ><b>2000</b></font><font size="3" color="#585858">年)</font>
+<br><font size="5" color="#FFA91D" id="nowMon" ><b>08</b></font><font size="3" color="#585858">月</font>
+<font size="5" color="#FFA91D" id="nowDay" ><b>2</b></font><font size="3" color="#585858">日</font>
+<font size="5" color="#FFA91D" id="nowYoubi"><b>花</b></font><font size="3" color="#585858">曜日</font><br><br>
+
+<div style="position: relative;">
+<img id="gazo" onload="changeIMG()" src="tori.png"  width="270" border="0" alt=""><br>
+ <!-- <div style="position: relative;"> -->
+ <!--  onMouseOver=this.src='image2.GIF' 
+ onMouseOut=this.src='image1.GIF' -->
+<div style="position:absolute; top:40px; right:10px; width: 430px;">
+<font size="3" color="#585858">あなたは</font></div>
+<div style="position:absolute; top:70px; width: 270px;">
+ <select name="学校選択">
+    
+    <option>大学生（４年制）</option>
+    <option>大学生（６年制）</option>
+    <option>専門（２年制）</option>   
+  </select><br></div>
+
+  <div style="position:absolute; top:100px; width: 270px;right:50px;">
+  <font size="2" face="VL Gothic">浪人 </font>
+  <select name="浪人選択">
+
+    <option>なし</option>
+    <option>１年</option>
+    <option>２年</option>
+    <option>３年</option>
+    <option>４年</option>
+    <option>５年</option>
+    <option>６年</option>
+    <option>７年</option>
+    <option>８年</option>
+    <option>９年</option>   
+  </select>
+   <font size="2" face="VL Gothic">留年 </font>
+  <select name="留年選択">
+
+    <option>なし</option>
+    <option>１年</option>
+    <option>２年</option>
+    <option>３年</option>
+    <option>４年</option>
+    <option>５年</option>
+    <option>６年</option>
+    <option>７年</option>
+    <option>８年</option>
+    <option>９年</option>   
+  </select><br>
+
+
+
+
+</div>
+<div style="position:absolute; top:145px;left: 15px; width: 270px;">
+<font size="3" color="#585858">です。</font>
+</div></div>
+</center></div>
+<br>
+<center>
+<div style="background: #FFFFFF; border-radius: 20px; width:300px; border: 3px solid #CBC6C6; height:100％; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;">
+<input type="date" style="WIDTH:210px; HEIGHT:40px; font-size:20px; text-align:center;" /><br>
+<font><a class="square_btn" onclick="redirect1()">GO!</a>
+</font><br><br>
+<a class="square_btn"><font>1996/11/16</font> <font face="VL Gothic">生まれ</a></font>
+</div>
+</body>
+
